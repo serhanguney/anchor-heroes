@@ -141,13 +141,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "anchor-heroes"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
-]
-
-[[package]]
 name = "anchor-lang"
 version = "0.19.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -187,6 +180,13 @@ dependencies = [
  "sha2 0.9.9",
  "syn",
  "thiserror",
+]
+
+[[package]]
+name = "anchor_heroes"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
 ]
 
 [[package]]
