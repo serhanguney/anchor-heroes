@@ -1,0 +1,12 @@
+[programs.localnet]
+anchor_heroes = "FrBfVZtRDKzcuZB7E4hqQgKuiHg5rWJZZu2vL4uk22XA"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/serhan.guney/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
